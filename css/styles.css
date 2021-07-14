@@ -74,7 +74,8 @@ body main section {
   flex-direction: row;
   justify-content: normal center;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 5%;
+  margin-top:10%;
 }
 
 .inicial{
@@ -178,7 +179,7 @@ h2 {
 }
 
 .form-container input {
-  min-width: 400px;
+  width: 70%;
   font-weight: bold;
   background-color: #c4c4c4;
 }
