@@ -74,7 +74,7 @@ body main section {
   flex-direction: row;
   justify-content: normal center;
   position: relative;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   margin-top:10%;
 }
 
@@ -103,6 +103,7 @@ h1 small {
 .inicial p {
   line-height: 140%;
   text-align: justify;
+  font-size: 2vw;
 }
 
 #index img.imagembackground {
@@ -117,7 +118,7 @@ h1 small {
 h2 {
   font-size: 6vw;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   color: #ffbdff;
 }
 
