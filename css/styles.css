@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700");
+
+body {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #cccccc;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  margin: 0;
+}
+
+body a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  margin-top: 4%;
+  overflow: hidden;
+
+}
+
+.home {
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+header a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 14px;
+  border-radius: 5px;
+  margin-right: 4px;
+  
+  
+}
+.rightitens{
+float: right;
+margin-top: 2%;
+margin-right: 20px;
+}
+
+header a:hover {
+  background-color: #ff95dc;
+background-size: 28px;
+}
+
+.nav {
+position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #ffb0f4;
+  background: solid;
+  float: left;
+  height: 9%;
+}
+
+.nav a {
+  padding-left: 9px;
+  padding-right: 9px;
+}
+body main section {
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  padding: 2% 2%;
+}
+
+#index {
+  float: left;
+  flex-direction: row;
+  justify-content: normal center;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.inicial{
+  flex: 1;
+  max-width: 45%;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: justify;
+
+}
+
+h1 {
+  font-size: 7vw;
+  text-align: left;
+  color: #ffbdff;
+}
+
+h1 small {
+  font-size: 3vw;
+  font-weight: 300;
+  display: block;
+  color: #ffffff;
+}
+
+.inicial p {
+  line-height: 32px;
+  text-align: justify;
+}
+
+#index img.imagembackground {
+  flex: 1;
+  max-width: 50%;
+  position: absolute;
+  top: 15%;
+  right: 2%;
+  border-radius: 35px;
+}
+
+h2 {
+  font-size: 6vw;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffbdff;
+}
+
+#destinos ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: normal;
+  align-items: stretch;
+}
+
+#destinos ul li {
+  flex: 1;
+  max-width: 40%;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+#destinos ul li img {
+  max-height: 90px;
+
+}
+
+#email {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.form-container {
+  background-color: #e092d6;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 15px -3px #000000;
+  box-shadow: 0px 0px 15px -3px #000000;
+  padding: 2%;
+  text-align: center;
+  width: 80%;
+  margin-left: 8%;
+}
+
+.form-container p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 24px 0;
+
+}
+
+.form-container input,
+.form-container button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  padding: 12px;
+}
+
+.form-container input {
+  min-width: 400px;
+  font-weight: bold;
+  background-color: #c4c4c4;
+}
+
+.form-container button {
+  color: #ffffff;
+  background-color: #24a076;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  min-width: 100px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: right;
+  padding: 24px 10%;
+}
+
+footer a {
+  font-size: 18px;
+  font-weight: bold;
+}
