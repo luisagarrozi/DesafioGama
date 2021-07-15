@@ -31,8 +31,8 @@ header a {
   text-align: center;
   text-decoration: none;
   font-size: 22px;
-  line-height: 14px;
-  border-radius: 5px;
+  line-height: 18px;
+  border-radius: 3px;
   margin-right: 4px;
   
   
@@ -45,7 +45,6 @@ margin-right: 20px;
 
 header a:hover {
   background-color: #ff95dc;
-background-size: 28px;
 }
 
 .nav {
@@ -207,4 +206,17 @@ footer {
 footer a {
   font-size: 18px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+  header a {
+      font-size: 14px;
+    line-height: 10px;
+    margin-right: 2px;
+  }
+
+  .rightitens{
+  margin-top: 1%;
+  margin-right: 10px;
+  }
 }
