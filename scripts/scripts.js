@@ -1,13 +1,9 @@
 // Função do email
-const form = document.getElementById('form');
-    const button = document.getElementById('enviar');
+const button = document.getElementById('enviar');
+const input = document.getElementById('email-input');
 
+button.addEventListener('click', (event) => {
+    event.preventDefault();
 
-    button.addEventListener('click', (event) => {
-        event.preventDefault();
-        let email = document.getElementById('email').value;
-
-        let convertData = JSON.stringify(email);
-
-        localStorage.setItem('lead', convertData);
-    })
+    localStorage.setItem('email', input.value);
+})
