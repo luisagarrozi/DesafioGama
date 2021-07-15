@@ -22,7 +22,7 @@ header {
 
 .home {
   margin-left: 3%;
-  margin-top: 2%;
+  margin-top: 1.5%;
 }
 
 header a {
@@ -31,7 +31,7 @@ header a {
   text-align: center;
   text-decoration: none;
   font-size: 22px;
-  line-height: 18px;
+  line-height: 14px;
   border-radius: 3px;
   margin-right: 4px;
   
@@ -39,7 +39,7 @@ header a {
 }
 .rightitens{
 float: right;
-margin-top: 2%;
+margin-top: 1.5%;
 margin-right: 20px;
 }
 
@@ -208,15 +208,15 @@ footer a {
   font-weight: bold;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 770px) {
   header a {
-      font-size: 14px;
+      font-size: 17px;
     line-height: 10px;
     margin-right: 2px;
   }
 
   .rightitens{
-  margin-top: 1%;
+  margin-top: 2%;
   margin-right: 10px;
   }
 }
