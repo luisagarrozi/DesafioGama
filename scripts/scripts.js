@@ -1,11 +1,13 @@
 // Função do email
-(() => {
+const form = document.getElementById('form');
     const button = document.getElementById('enviar');
-    const input = document.getElementById('email-input');
+
 
     button.addEventListener('click', (event) => {
         event.preventDefault();
+        let email = document.getElementById('email').value;
 
-        localStorage.setItem('email', input.value);
+        let convertData = JSON.stringify(email);
+
+        localStorage.setItem('lead', convertData);
     })
-})();
